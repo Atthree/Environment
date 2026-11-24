@@ -1,0 +1,14 @@
+{
+  "name": "com.atthree.environment",
+  "version": "0.1.0",
+  "displayName": "Environment",
+  "description": "One-click scene environments for Unity 6: sun, skybox, ambient light, fog, URP post-processing, ground and camera from presets (Day, Sunset, Night, Dungeon, Foggy), smooth runtime transitions and a time-of-day cycle.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Atthree",
+    "url": "https://github.com/Atthree"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {}
+}
