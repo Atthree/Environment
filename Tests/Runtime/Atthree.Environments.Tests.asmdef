@@ -3,6 +3,8 @@
     "rootNamespace": "Atthree.Environments.Tests",
     "references": [
         "Atthree.Environments",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
     ],
@@ -17,6 +19,12 @@
     "defineConstraints": [
         "UNITY_INCLUDE_TESTS"
     ],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "14.0.0",
+            "define": "ATTHREE_URP"
+        }
+    ],
     "noEngineReferences": false
 }

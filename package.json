@@ -2,13 +2,40 @@
   "name": "com.atthree.environment",
   "version": "0.1.0",
   "displayName": "Environment",
-  "description": "One-click scene environments for Unity 6: sun, skybox, ambient light, fog, URP post-processing, ground and camera from presets (Day, Sunset, Night, Dungeon, Foggy), smooth runtime transitions and a time-of-day cycle.",
+  "description": "One-click scene environments for Unity 6: sun, skybox, ambient light, fog, sky reflections and URP post-processing from presets (Day, Sunset, Night, Dungeon, Foggy), smooth runtime transitions and a day/night cycle.",
   "unity": "6000.0",
   "author": {
     "name": "Atthree",
     "url": "https://github.com/Atthree"
   },
   "license": "MIT",
-  "keywords": [],
-  "dependencies": {}
+  "keywords": [
+    "unity",
+    "unity3d",
+    "unity6",
+    "upm",
+    "upm-package",
+    "unity-package",
+    "gamedev",
+    "csharp",
+    "environment",
+    "lighting",
+    "skybox",
+    "fog",
+    "post-processing",
+    "urp",
+    "day-night-cycle",
+    "time-of-day",
+    "atmosphere",
+    "presets",
+    "level-design"
+  ],
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "A self-building scene: switch presets with buttons, day/night cycle with a time slider, torches that light up in the dark.",
+      "path": "Samples~/Demo"
+    }
+  ]
 }

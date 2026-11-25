@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3507adb2d7d9db04c952919f42a7f4c7, type: 3}
+  m_Name: Night
+  m_EditorClassIdentifier: Atthree.Environments::Atthree.Environments.EnvironmentPreset
+  description: Cool moonlight, dark blue sky, soft bloom.
+  settings:
+    sun:
+      enabled: 1
+      pitch: 40
+      yaw: 140
+      color: {r: 0.55, g: 0.66, b: 1, a: 1}
+      intensity: 0.3
+      shadows: 2
+      shadowStrength: 0.7
+    sky:
+      mode: 0
+      skyTint: {r: 0.12, g: 0.15, b: 0.25, a: 1}
+      groundColor: {r: 0.03, g: 0.03, b: 0.04, a: 1}
+      exposure: 0.15
+      sunSize: 0.025
+      atmosphereThickness: 0.6
+      solidColor: {r: 0.02, g: 0.03, b: 0.06, a: 1}
+      customMaterial: {fileID: 0}
+    ambient:
+      mode: 1
+      skyColor: {r: 0.1, g: 0.13, b: 0.24, a: 1}
+      equatorColor: {r: 0.06, g: 0.08, b: 0.13, a: 1}
+      groundColor: {r: 0.02, g: 0.02, b: 0.03, a: 1}
+      intensity: 1
+      reflectionIntensity: 0.5
+    fog:
+      enabled: 1
+      mode: 3
+      color: {r: 0.04, g: 0.05, b: 0.09, a: 1}
+      density: 0.012
+      start: 20
+      end: 150
+    post:
+      enabled: 1
+      tonemapping: 2
+      postExposure: 0.4
+      contrast: 10
+      saturation: -20
+      colorFilter: {r: 1, g: 1, b: 1, a: 1}
+      temperature: -20
+      tint: 0
+      bloomIntensity: 1
+      bloomThreshold: 0.8
+      bloomScatter: 0.75
+      bloomTint: {r: 0.8, g: 0.85, b: 1, a: 1}
+      vignetteIntensity: 0.35
+      vignetteSmoothness: 0.45
+      vignetteColor: {r: 0, g: 0, b: 0, a: 1}

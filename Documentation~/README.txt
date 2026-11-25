@@ -1,1 +1,1 @@
-# Bu klasördeki (~ ile biten) dosyaları Unity görmez. Görseller, dokümanlar buraya.
+# Bu klasördeki (~ ile biten) dosyaları Unity görmez. README'deki görseller burada.

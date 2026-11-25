@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3507adb2d7d9db04c952919f42a7f4c7, type: 3}
+  m_Name: Foggy
+  m_EditorClassIdentifier: Atthree.Environments::Atthree.Environments.EnvironmentPreset
+  description: Overcast, soft shadows, dense grey fog that hides the horizon.
+  settings:
+    sun:
+      enabled: 1
+      pitch: 35
+      yaw: -20
+      color: {r: 0.85, g: 0.88, b: 0.9, a: 1}
+      intensity: 0.6
+      shadows: 2
+      shadowStrength: 0.4
+    sky:
+      mode: 1
+      skyTint: {r: 0.6, g: 0.62, b: 0.65, a: 1}
+      groundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      exposure: 0.9
+      sunSize: 0.02
+      atmosphereThickness: 2.5
+      solidColor: {r: 0.62, g: 0.65, b: 0.68, a: 1}
+      customMaterial: {fileID: 0}
+    ambient:
+      mode: 1
+      skyColor: {r: 0.62, g: 0.66, b: 0.7, a: 1}
+      equatorColor: {r: 0.55, g: 0.57, b: 0.6, a: 1}
+      groundColor: {r: 0.3, g: 0.3, b: 0.3, a: 1}
+      intensity: 1
+      reflectionIntensity: 0.6
+    fog:
+      enabled: 1
+      mode: 3
+      color: {r: 0.62, g: 0.65, b: 0.68, a: 1}
+      density: 0.035
+      start: 5
+      end: 60
+    post:
+      enabled: 1
+      tonemapping: 1
+      postExposure: 0
+      contrast: -5
+      saturation: -25
+      colorFilter: {r: 1, g: 1, b: 1, a: 1}
+      temperature: -5
+      tint: 0
+      bloomIntensity: 0.3
+      bloomThreshold: 1
+      bloomScatter: 0.8
+      bloomTint: {r: 1, g: 1, b: 1, a: 1}
+      vignetteIntensity: 0.2
+      vignetteSmoothness: 0.5
+      vignetteColor: {r: 0, g: 0, b: 0, a: 1}

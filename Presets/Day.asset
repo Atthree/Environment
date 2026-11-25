@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3507adb2d7d9db04c952919f42a7f4c7, type: 3}
+  m_Name: Day
+  m_EditorClassIdentifier: Atthree.Environments::Atthree.Environments.EnvironmentPreset
+  description: Clear midday sun, blue sky, light haze.
+  settings:
+    sun:
+      enabled: 1
+      pitch: 50
+      yaw: -30
+      color: {r: 1, g: 0.957, b: 0.839, a: 1}
+      intensity: 1.3
+      shadows: 2
+      shadowStrength: 0.9
+    sky:
+      mode: 0
+      skyTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      groundColor: {r: 0.37, g: 0.35, b: 0.34, a: 1}
+      exposure: 1.3
+      sunSize: 0.04
+      atmosphereThickness: 1
+      solidColor: {r: 0.55, g: 0.7, b: 0.9, a: 1}
+      customMaterial: {fileID: 0}
+    ambient:
+      mode: 1
+      skyColor: {r: 0.62, g: 0.72, b: 0.86, a: 1}
+      equatorColor: {r: 0.55, g: 0.58, b: 0.6, a: 1}
+      groundColor: {r: 0.3, g: 0.28, b: 0.25, a: 1}
+      intensity: 1
+      reflectionIntensity: 1
+    fog:
+      enabled: 1
+      mode: 3
+      color: {r: 0.72, g: 0.8, b: 0.9, a: 1}
+      density: 0.004
+      start: 50
+      end: 300
+    post:
+      enabled: 1
+      tonemapping: 1
+      postExposure: 0
+      contrast: 10
+      saturation: 10
+      colorFilter: {r: 1, g: 1, b: 1, a: 1}
+      temperature: 0
+      tint: 0
+      bloomIntensity: 0.4
+      bloomThreshold: 1
+      bloomScatter: 0.7
+      bloomTint: {r: 1, g: 1, b: 1, a: 1}
+      vignetteIntensity: 0.2
+      vignetteSmoothness: 0.4
+      vignetteColor: {r: 0, g: 0, b: 0, a: 1}

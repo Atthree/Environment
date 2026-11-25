@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3507adb2d7d9db04c952919f42a7f4c7, type: 3}
+  m_Name: Dungeon
+  m_EditorClassIdentifier: Atthree.Environments::Atthree.Environments.EnvironmentPreset
+  description: 'Indoor: no sun, dark warm ambient, thick fog. Add your own torches.'
+  settings:
+    sun:
+      enabled: 0
+      pitch: 60
+      yaw: 0
+      color: {r: 1, g: 0.8, b: 0.6, a: 1}
+      intensity: 0
+      shadows: 2
+      shadowStrength: 1
+    sky:
+      mode: 1
+      skyTint: {r: 0.2, g: 0.18, b: 0.16, a: 1}
+      groundColor: {r: 0.05, g: 0.04, b: 0.04, a: 1}
+      exposure: 0.2
+      sunSize: 0.04
+      atmosphereThickness: 1
+      solidColor: {r: 0.03, g: 0.025, b: 0.02, a: 1}
+      customMaterial: {fileID: 0}
+    ambient:
+      mode: 1
+      skyColor: {r: 0.16, g: 0.14, b: 0.13, a: 1}
+      equatorColor: {r: 0.13, g: 0.11, b: 0.1, a: 1}
+      groundColor: {r: 0.06, g: 0.05, b: 0.05, a: 1}
+      intensity: 1
+      reflectionIntensity: 0.3
+    fog:
+      enabled: 1
+      mode: 3
+      color: {r: 0.03, g: 0.025, b: 0.02, a: 1}
+      density: 0.045
+      start: 5
+      end: 40
+    post:
+      enabled: 1
+      tonemapping: 2
+      postExposure: 0.6
+      contrast: 20
+      saturation: -10
+      colorFilter: {r: 1, g: 1, b: 1, a: 1}
+      temperature: 15
+      tint: 0
+      bloomIntensity: 1.2
+      bloomThreshold: 0.8
+      bloomScatter: 0.7
+      bloomTint: {r: 1, g: 0.8, b: 0.6, a: 1}
+      vignetteIntensity: 0.45
+      vignetteSmoothness: 0.5
+      vignetteColor: {r: 0, g: 0, b: 0, a: 1}

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3507adb2d7d9db04c952919f42a7f4c7, type: 3}
+  m_Name: Sunset
+  m_EditorClassIdentifier: Atthree.Environments::Atthree.Environments.EnvironmentPreset
+  description: Low warm sun, long shadows, orange haze.
+  settings:
+    sun:
+      enabled: 1
+      pitch: 8
+      yaw: -60
+      color: {r: 1, g: 0.56, b: 0.3, a: 1}
+      intensity: 1.2
+      shadows: 2
+      shadowStrength: 0.85
+    sky:
+      mode: 0
+      skyTint: {r: 0.62, g: 0.42, b: 0.38, a: 1}
+      groundColor: {r: 0.3, g: 0.22, b: 0.2, a: 1}
+      exposure: 1.1
+      sunSize: 0.06
+      atmosphereThickness: 1.7
+      solidColor: {r: 0.85, g: 0.5, b: 0.35, a: 1}
+      customMaterial: {fileID: 0}
+    ambient:
+      mode: 1
+      skyColor: {r: 0.5, g: 0.42, b: 0.5, a: 1}
+      equatorColor: {r: 0.62, g: 0.4, b: 0.28, a: 1}
+      groundColor: {r: 0.14, g: 0.1, b: 0.1, a: 1}
+      intensity: 1
+      reflectionIntensity: 0.8
+    fog:
+      enabled: 1
+      mode: 3
+      color: {r: 0.85, g: 0.56, b: 0.42, a: 1}
+      density: 0.008
+      start: 30
+      end: 200
+    post:
+      enabled: 1
+      tonemapping: 2
+      postExposure: 0.3
+      contrast: 15
+      saturation: 12
+      colorFilter: {r: 1, g: 1, b: 1, a: 1}
+      temperature: 20
+      tint: 0
+      bloomIntensity: 0.8
+      bloomThreshold: 0.9
+      bloomScatter: 0.7
+      bloomTint: {r: 1, g: 0.85, b: 0.7, a: 1}
+      vignetteIntensity: 0.3
+      vignetteSmoothness: 0.45
+      vignetteColor: {r: 0.1, g: 0.03, b: 0, a: 1}
